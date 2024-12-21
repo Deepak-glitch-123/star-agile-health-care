@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: healthcare
-        image: deepak377/myproject2:latest
+        image: deepak377/myproject2:$BUILD_NUMBER
         ports:
         - containerPort: 8082
 ---
